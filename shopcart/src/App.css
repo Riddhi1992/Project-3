@@ -1,0 +1,89 @@
+/* Header style */
+.title_logo {
+  width: 200px;
+  height: 200px;
+}
+
+span {
+  width: 300px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-header {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.3em;
+  color: #000000;
+  background: #383841;
+  background: linear-gradient(0deg, #353fb3 15%, #383841 100%);
+}
+.App-header a {
+  text-decoration: none;
+}
+.App-header Link .rColor {
+  color: #61dafb;
+}
+
+.title_01 {
+  font-family: "Acme", sans-serif;
+}
+
+.title_02 {
+  font-family: "Acme", sans-serif;
+}
+
+.title_03 {
+  font-family: "Satisfy", cursive;
+}
+
+.navbar_font {
+  font-family: "Special Elite", cursive;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.navbar-link {
+  padding-left: 5px;
+}
+
+.history {
+  padding-top: 100px;
+  text-align: left;
+  font-family: "Special Elite", cursive;
+}
+
+.history_title, .history_font {
+  font-family: "Acme", sans-serif;
+}
+
+.history_font {
+  font-size: 2rem;
+}
+
+.history_info {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.2rem;
+  font-family: "Acme", sans-serif;
+}
+
+.MenuItems_img img {
+  width: 500px;
+  height: 500px;
+}
+
+.basket {
+  font-family: "Acme", sans-serif;
+}
+
+.checkout {
+  margin-left: 5rem;
+}
+
+/*# sourceMappingURL=App.css.map */

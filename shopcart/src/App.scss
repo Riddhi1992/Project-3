@@ -1,0 +1,104 @@
+/* Header style */
+.App {
+	// text-align: center;
+}
+
+.title_logo{
+	width: 200px;
+	height: 200px;
+}
+
+span {
+	width: 300px;
+}
+.App-link {
+	color: #61dafb;
+}
+.App-header {
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1.3em;
+	color: #000000;
+	background: rgb(56,56,65);
+	background: linear-gradient(0deg, rgba(53,63,179,1) 15%, rgba(56,56,65,1) 100%);
+	a {
+		text-decoration: none;
+	}
+	Link {
+		.rColor {
+			color: #61dafb;
+		}
+	}
+}
+
+// Navbar
+.title_01 {
+	font-family: 'Acme', sans-serif;
+}
+
+// .title_02 {
+// 	font-family: 'Lobster Two', cursive;
+// }
+
+.title_02 {
+	font-family: 'Acme', sans-serif;
+}
+
+.title_03 {
+	font-family: 'Satisfy', cursive;
+}
+
+.navbar_font {
+	font-family: 'Special Elite', cursive;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+
+.navbar-link {
+	padding-left: 5px;
+}
+
+// History page
+.history {
+	padding-top: 100px;
+	text-align: left;
+	font-family: 'Special Elite', cursive;
+}
+
+.history_title, .history_font {
+	font-family: 'Acme', sans-serif;
+}
+
+.history_font {
+	font-size: 2rem;
+	// padding-left: 5rem;
+}
+
+.history_info {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	font-size: 1.2rem;
+	font-family: 'Acme', sans-serif;
+}
+
+// MenuItems
+.MenuItems_img {
+	img {
+		width: 500px;
+		height: 500px;
+	}
+	
+}
+
+// Basket
+.basket {
+	font-family: 'Acme', sans-serif;
+	
+}
+
+.checkout {
+	margin-left: 5rem;
+}
