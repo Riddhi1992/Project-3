@@ -9,10 +9,10 @@ function History (props) {
                 <h1 className="mx-auto pt-5 pb-5 history_title text-center">Meet NICK, NICK &amp; NICK</h1>
                 <Row className="border border-primary rounded shadow-lg m-3 p-4">    
                     <Col md="auto" className="w-50">
-                        <img src="./products/Three-Nicks-cutting-the-ribbon_07.jpg" alt="Nick brothers" style={{ width: '500px', height: '700px' }} />
+                        <img className="w-100" src="./products/Three-Nicks-cutting-the-ribbon_07.jpg" alt="Nick brothers" style={{ width: '500px', height: '700px' }} />
                     </Col>
                     <Col md="auto" className="w-50">
-                        <h4 className="history">Nick the Greek was born after one of three close-knit cousins, Nick (Baby Nick), traveled home from a trip to Greece and realized that there was nowhere near home where he could get quality gyros. As second-generation restaurateurs, Nick and his two cousins, also named Nick (Big Nick and Little Nick) decided to start their own modern restaurant concept. The Nick the Greek concept was born. It has grown to become an incredibly popular, multi-unit chain and a restaurant franchise opportunity primed for even more growth!</h4>
+                        <h4 className="history w-100">Nick the Greek was born after one of three close-knit cousins, Nick (Baby Nick), traveled home from a trip to Greece and realized that there was nowhere near home where he could get quality gyros. As second-generation restaurateurs, Nick and his two cousins, also named Nick (Big Nick and Little Nick) decided to start their own modern restaurant concept. The Nick the Greek concept was born. It has grown to become an incredibly popular, multi-unit chain and a restaurant franchise opportunity primed for even more growth!</h4>
                     </Col>
                 </Row>
             </Container>
