@@ -25,6 +25,10 @@ mongoose.connection
 
 const server = app.listen(8000, ()=>{
     const host = server.address().address
-    const port = server.address().port
-    console.log('APP LISTENING AT HTTP://%s:%s', host, port)
+    // const port = server.address().port
+    // console.log('APP LISTENING AT HTTP://%s:%s', host, port)
+    const port = process.env.PORT || 8080;
+    app.listen(port, '0.0.0.0',() => {
+        console.log('Listening on Port ' + port);
+    });
 })
